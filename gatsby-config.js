@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `nehalem-starter`,
+    title: `... 그러한 연 然 ...`,
     siteUrl: `https://nehalem.netlify.com`,
-    description: `A Gatsby starter for nehalem`,
+    description: `세상에 남길 무언가`,
     topics: [],
     menu: [
       {
@@ -10,29 +10,27 @@ module.exports = {
         path: '/'
       },
       {
-        name: 'Example',
+        name: 'Posts',
         path: '/page'
       },
     ],
     footerMenu: [
       {
-        name: 'Example',
+        name: 'Posts',
         path: '/page'
       },
     ],
     search: true,
     author: {
-      name: `nehalem`,
-      description: `I'm <strong>nehalem</strong>, a Gatsby theme by 
-        <a href="https://nehalist.io" rel="noopener" target="_blank">nehalist.io</a>. If you like what you see feel free to give a 
-        <a href="https://github.com/nehalist/gatsby-theme-nehalem" rel="noopener" target="_blank">star on GitHub!</a>`,
+      name: `컬킨`,
+      description: `<strong>컬킨</strong>, 미디어 회사 근무, 얇고 좁은 풀스택 웹 개발자, 내 이야기도 좋지만 가족 이야기도 하고 싶음`,
       social: {
         facebook: ``,
-        twitter: `https://twitter.com/nehalist`,
-        linkedin: `https://www.linkedin.com/in/kevin-hirczy-7a9377106/`,
+        twitter: ``,
+        linkedin: ``,
         instagram: ``,
         youtube: ``,
-        github: `https://github.com/nehalist`,
+        github: `https://github.com/harrykulkin`,
         twitch: ``
       }
     }

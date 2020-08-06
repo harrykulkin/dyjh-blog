@@ -1,4 +1,12 @@
-- name: Demo
+- name: 2019-싱가포르
   color: "#007acc"
+  icon: ./assets/images/logo.png
+  featured: true
+- name: 2018루이루나
+  color: "#00cc7e"
+  icon: ./assets/images/logo.png
+  featured: true
+- name: 2015다연주환
+  color: "#b002c7"
   icon: ./assets/images/logo.png
   featured: true

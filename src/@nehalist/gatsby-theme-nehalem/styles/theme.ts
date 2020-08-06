@@ -14,8 +14,7 @@ const Theme: DefaultTheme = {
     xl: `1300px`,
   },
   fonts: {
-    base: `-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, ` +
-      `Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif`,
+    base: `Nanum Gothic, Noto Sans KR`
   },
   components: {
     container: {
@@ -23,7 +22,7 @@ const Theme: DefaultTheme = {
     },
     header: {
       height: `440px`,
-      background: `linear-gradient(-45deg, #44596e, #a4cbb8) repeat scroll 0 0 transparent`,
+      background: `linear-gradient(-45deg, #6e4460, #cba4c7) repeat scroll 0 0 transparent`,
     },
   },
 };
