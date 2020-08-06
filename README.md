@@ -50,3 +50,4 @@ Happy to hear that! Feel free to star it on [GitHub](https://github.com/nehalist
 Developed by [nehalist.io](https://nehalist.io).
 
 *Big thanks to my SO for the awesome logo!*
+
