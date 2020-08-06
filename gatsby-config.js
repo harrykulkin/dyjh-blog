@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `... 그러한 연 然 ...`,
-    siteUrl: `https://nehalem.netlify.com`,
+    siteUrl: `https://dyjh-blog.netlify.app/`,
     description: `세상에 남길 무언가`,
     topics: [],
     menu: [
