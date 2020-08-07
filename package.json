@@ -11,7 +11,7 @@
   "main": "n/a",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build": "cp content/assets/images/icon-96x96.png node_modules/@nehalist/gatsby-theme-nehalem/logo.png && cp content/assets/images/icon-512x512.png node_modules/@nehalist/gatsby-theme-nehalem/assets/nehalist-gatsby.png && gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve"
