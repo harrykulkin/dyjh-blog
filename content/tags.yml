@@ -10,3 +10,7 @@
   color: "#b002c7"
   icon: ./assets/images/logo.png
   featured: true
+- name: 개츠비블로그
+  color: "#a3c702"
+  icon: ./assets/images/logo.png
+  featured: true
