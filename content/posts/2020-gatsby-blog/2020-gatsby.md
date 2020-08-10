@@ -68,6 +68,8 @@ cd {블로그명}
 - packge.json 내에 **dependencies** 부분 삭제하고 의존성을 정리해준다
 - 정리를 위해 **package-lock.json과 yarn.lock을 삭제**하고 .gitignore 에 package-lock.json 을 추가해준다
   - yarn.lock은 추가하지 않는다.
+
+
 ```
 rm package-lock.json
 rm yarn.lock
@@ -86,10 +88,13 @@ gatsby develop
 ## 다음 스텝
 - 깃헙에 리포지토리를 새로 생성하여 생성하여 새로 생성한 블로그 폴더를 커밋한다
 - netlify 배포하기 위하여 **package.json** 내에 **build** 스크립트를 아래와 같이 설정한다
+
+
 ```
 gatsby clean && gatsby build
 ```
   - 기타 필요한 스크립트가 있다면 추가해줘도 좋다. (아래 예시 참조)
+
 
 ```
 gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/gatsby-theme-nehalem/logo.png && cp content/assets/images/icon-512x512.png node_modules/@nehalist/gatsby-theme-nehalem/assets/nehalist-gatsby.png && gatsby build
