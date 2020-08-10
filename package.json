@@ -2,9 +2,9 @@
   "name": "gatsby-starter-nehalem",
   "description": "A starter for the Gatsby Nehalem theme",
   "author": {
-    "name": "Kevin Hirczy",
-    "email": "kevin@nehalist.io",
-    "url": "https://nehalist.io"
+    "name": "harrykulkin",
+    "email": "harrykulkin@gmail.com",
+    "url": "https://dyjh-blog.netlify.app"
   },
   "private": true,
   "version": "1.0.0",
@@ -18,8 +18,6 @@
   },
   "dependencies": {
     "@nehalist/gatsby-theme-nehalem": "^1.0.3",
-    "gatsby": "^2.13.55",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "gatsby": "^2.24.37"
   }
 }

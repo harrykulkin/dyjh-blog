@@ -3,7 +3,7 @@ title: "개츠비 스타터 블로그 생성기"
 path: "/2020-gatsby-blog"
 tags: ["개츠비블로그"]
 featuredImage: "./cover.jpg"
-excerpt: 
+excerpt: 개츠비 스타터 블로그 생성기
 created: 2020-08-10
 updated: 2020-08-10
 ---
@@ -30,11 +30,6 @@ updated: 2020-08-10
 - 첫번째 후보는 **jekyll** 블로그를 였으나, 생소한 **ruby** 개발환경을 구성해야해서 탈락
 - 또한 최근에 뛰어난 퍼포먼스로 급부샇안 **golang** 기반의 **hugo** 블로그도 있었다. 사내에서는 이미 golang 기반의 gitea를 깃헙 처럼 구축해서 쓰고 만족하고 있던 터라, 매우 긍정적으로 검토했으나,
 - reddit 등의 반응을 찾아본 결과, **gatsby**가 비교적 대중적인 **reactJS** 기반으로도 충분한 퍼포먼스를 낸다는 평이 많아서 gatsby를 선택했다.
-
-|구분   |Jekyll|gatsby |hugo|
-|-------|------|-------|----|
-|개발환경|Ruby  |reactJS|go  |
-|깃헙별수|45.9천|46.2천 |41천 |
 
 - 비교를 위해 **스택 셰어**를 많이 참조 했음을 알린다. <https://stackshare.io/stackups/gatsbyjs-vs-hugo-vs-jekyll>
 
@@ -64,12 +59,22 @@ Gatsby CLI version: 2.12.76
 - 여기서부터 기본 gatsby 템플릿을 생성하여 하나하나 만들어가는 방법도 있다. 하지만 이마저도 스킵하고 빠르게 컨텐츠를 양산하고 싶다면, 필자처럼 gatsby-starter 테마를 이용하면 된다.
 - gatsby 공식 라이브로리 페이지에 검색하여 맘에드는 테마를 고른다 <https://www.gatsbyjs.org/starters/?c=Blog&v=2>
 - 필자가 고민 끝에 선택한 테마 <https://www.gatsbyjs.org/starters/nehalist/gatsby-starter-nehalem/>
-- 테마를 선택했다면 해당 깃헙 페이지에 들어가서 우측 상단의 fork 버튼을 눌러준다 <https://github.com/nehalist/gatsby-starter-nehalem>
-- fork가 완료되면 로컬 리포지토리에서 포크 떠진 repo를 클론한다
-  - gatsby new 를 사용하지 않는 이유는 깃헙을 통해 형상관리를 원활히 하기 위함.
-- 클론된 로컬 리포의 개발서버를 띄워주고 <http://localhost:8000> 으로 접속하면 성공적으로 개발환경이 완성된다.
+- 테마를 선택했다면 gatsby new 를 사용하여 로컬에 해당 테마를 다운로드 한다.
 ```
-git clone https://github.com/{유저명}/{리포지토리명}.git
-cd {리포지토리명}\
+gatsby new {블로그명} https://www.gatsbyjs.org/starters/nehalist/gatsby-starter-nehalem
+cd {블로그명}
+```
+
+- packge.json 내에 **dependencies** 부분 삭제하고 의존성을 정리해준다
+```
+npm i
+yarn add @nehalist/gatsby-theme-nehalem
+yarn add gatsby-cli
 gatsby develop
 ```
+  - 이때 gatsby-cli 를 설치 안해주면 오류가 남
+- 마지막으로 <http://localhost:8000> 으로 접속해서 개발서비스가 잘 띄워줬는 지 확인한다.
+
+## 다음 스텝
+- 깃헙 리포지토리 올리기
+- netlify 배포하기
