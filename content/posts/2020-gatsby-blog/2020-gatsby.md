@@ -66,18 +66,38 @@ cd {블로그명}
 ```
 
 - packge.json 내에 **dependencies** 부분 삭제하고 의존성을 정리해준다
+- 정리를 위해 **package-lock.json과 yarn.lock을 삭제**하고 .gitignore 에 package-lock.json 을 추가해준다
+  - yarn.lock은 추가하지 않는다.
 ```
-npm i
+rm package-lock.json
+rm yarn.lock
+
+npm i yarn
+
 yarn add @nehalist/gatsby-theme-nehalem
 yarn add gatsby-cli
+yarn add react-dom
+
 gatsby develop
 ```
-  - 이때 gatsby-cli 를 설치 안해주면 오류가 남
+  - yarn과 gatsby-cli 를 로컬에 설치 안 해주면 netlify 오류가 남
 - 마지막으로 <http://localhost:8000> 으로 접속해서 개발서비스가 잘 띄워줬는 지 확인한다.
 
 ## 다음 스텝
-- 깃헙에 리포지토리를 생성하여 새로 생성한 블로그 폴더를 커밋한다
-- netlify 배포하기 위하여 package.json 내에 'build' 스크립트를 아래와 같이 설정한다
+- 깃헙에 리포지토리를 새로 생성하여 생성하여 새로 생성한 블로그 폴더를 커밋한다
+- netlify 배포하기 위하여 **package.json** 내에 **build** 스크립트를 아래와 같이 설정한다
 ```
 gatsby clean && gatsby build
 ```
+  - 기타 필요한 스크립트가 있다면 추가해줘도 좋다. (아래 예시 참조)
+
+```
+gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/gatsby-theme-nehalem/logo.png && cp content/assets/images/icon-512x512.png node_modules/@nehalist/gatsby-theme-nehalem/assets/nehalist-gatsby.png && gatsby build
+```
+
+## netlify 배포 및 초기 블로그 세팅
+- 깃헙 아이디를 이용하여 **netlify**에 가입하고 해당 리포지토리를 연결해준다
+- 빌드 스크립트는 아까 생성한 ```yarn build```로 해준다
+- gatsby-config.js 파일 내에 제목 및 URL 등 정보를 수정해준다.
+- content/posts/ 경로에 있는 예시 포스트 폴더 하나를 복붙하여 제목 및 내용을 수정해준다.
+- 마기막으로 git commit 및 git push 를 수행한다.
