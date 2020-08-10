@@ -76,5 +76,8 @@ gatsby develop
 - 마지막으로 <http://localhost:8000> 으로 접속해서 개발서비스가 잘 띄워줬는 지 확인한다.
 
 ## 다음 스텝
-- 깃헙 리포지토리 올리기
-- netlify 배포하기
+- 깃헙에 리포지토리를 생성하여 새로 생성한 블로그 폴더를 커밋한다
+- netlify 배포하기 위하여 package.json 내에 'build' 스크립트를 아래와 같이 설정한다
+```
+gatsby clean && gatsby build
+```
