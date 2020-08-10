@@ -28,7 +28,7 @@ updated: 2020-08-10
 - 웹 개발이 본업이다 보니 딴에는 개발을 해볼까도 잠깐 고민했었으나, 이미 널리 쓰이고 있는 훌륭한 라이브러리를 사용하여 삽질을 줄이고 컨텐츠 생산에 열중하기로 했다.
 - 특히, 깃헙에서도 많이 쓰는 **마크다운(markdown)** 기반의 블로그가 생산성이 높을 것 같아 마크다운 기반 블로그 라이브러리로 후보군을 한정지었다.
 - 첫번째 후보는 **jekyll** 블로그를 였으나, 생소한 **ruby** 개발환경을 구성해야해서 탈락
-- 또한 최근에 뛰어난 퍼포먼스로 급부샇안 **golang** 기반의 **hugo** 블로그도 있었다. 사내에서는 이미 golang 기반의 gitea를 깃헙 처럼 구축해서 쓰고 만족하고 있던 터라, 매우 긍정적으로 검토했으나,
+- 또한 최근에 뛰어난 퍼포먼스로 급부상한 **golang** 기반의 **hugo** 블로그도 있었다. 사내에서는 이미 golang 기반의 gitea를 깃헙 처럼 구축해서 쓰고 만족하고 있던 터라, 매우 긍정적으로 검토했으나,
 - reddit 등의 반응을 찾아본 결과, **gatsby**가 비교적 대중적인 **reactJS** 기반으로도 충분한 퍼포먼스를 낸다는 평이 많아서 gatsby를 선택했다.
 
 - 비교를 위해 **스택 셰어**를 많이 참조 했음을 알린다. <https://stackshare.io/stackups/gatsbyjs-vs-hugo-vs-jekyll>
@@ -42,7 +42,8 @@ updated: 2020-08-10
 
 ## WSL2에서 gatsby 개발환경 만들기
 - WSL2 환경에서 gatsby 개발환경을 구성하는 방법은 yarn을 이용하는 방법과 npm을 이용하는 방법으로 나뉜다. 필자는 yarn을 이용하는 방법으로 설명을 하겠다.
-- yarn을 이용하더라도 npm은 필수적으로 설치해야 한다. yarn 을 통해 gatsby cli 를 전역(global) 로 설치하면 끝.
+- yarn을 이용하더라도 npm은 필수적으로 설치해야 한다.
+- yarn 을 통해 gatsby cli 를 전역(global) 로 설치하면 끝.
 ```
 sudo apt-get install nodejs
 sudo npm i -g yarn
@@ -73,13 +74,10 @@ cd {블로그명}
 ```
 rm package-lock.json
 rm yarn.lock
-
 npm i yarn
-
 yarn add @nehalist/gatsby-theme-nehalem
 yarn add gatsby-cli
 yarn add react-dom
-
 gatsby develop
 ```
   - yarn과 gatsby-cli 를 로컬에 설치 안 해주면 netlify 오류가 남
