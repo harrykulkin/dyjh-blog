@@ -19,6 +19,7 @@
   "dependencies": {
     "@nehalist/gatsby-theme-nehalem": "^1.0.3",
     "gatsby": "^2.24.37",
+    "gatsby-plugin-sitemap": "^2.4.11",
     "react-dom": "^16.13.1",
     "yarn": "^1.22.4"
   }

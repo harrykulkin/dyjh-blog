@@ -49,6 +49,7 @@ module.exports = {
           icon: `${__dirname}/content/assets/images/logo.png`
         }
       }
-    }
+    },
+    'gatsby-plugin-sitemap'
   ]
 };
