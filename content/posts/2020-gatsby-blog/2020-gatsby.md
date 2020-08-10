@@ -74,7 +74,9 @@ cd {블로그명}
 ```
 rm package-lock.json
 rm yarn.lock
+
 npm i yarn
+
 yarn add @nehalist/gatsby-theme-nehalem
 yarn add gatsby-cli
 yarn add react-dom
