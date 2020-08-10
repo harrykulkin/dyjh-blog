@@ -71,5 +71,4 @@ yarn-error.log
 .yarn-integrity
 
 .netlify/
-packge-lock.json
-yarn.lock
+package-lock.json
