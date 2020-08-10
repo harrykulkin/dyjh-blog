@@ -23,7 +23,7 @@ module.exports = {
     search: true,
     author: {
       name: `컬킨`,
-      description: `<strong>컬킨</strong>, 미디어 회사 근무, 얇고 좁은 풀스택 웹 개발자, 내 이야기도 좋지만 가족 이야기도 하고 싶음`,
+      description: `<strong>컬킨</strong>, 미디어 회사 근무, 얇고 좁은 풀스택 개발자 지향`,
       social: {
         facebook: ``,
         twitter: ``,
