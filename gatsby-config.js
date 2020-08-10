@@ -50,29 +50,7 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        output: `/sitemap.xml`,
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl
-              }
-            }
-            
-            allSitePage {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-          }
-        `
-      }
-    },
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ]
 };
