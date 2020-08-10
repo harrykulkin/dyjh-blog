@@ -22,7 +22,7 @@ const Theme: DefaultTheme = {
     },
     header: {
       height: `440px`,
-      background: `linear-gradient(-45deg, #6e4460, #cba4c7) repeat scroll 0 0 transparent`,
+      background: `linear-gradient(-45deg, #f1c8c2, #6e4039) repeat scroll 0 0 transparent`,
     },
   },
 };
