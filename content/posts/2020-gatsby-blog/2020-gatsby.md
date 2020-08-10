@@ -1,6 +1,6 @@
 ---
 title: "개츠비 스타터 블로그 생성기"
-path: "/2020-gatsby-blog"
+path: "posts/2020-gatsby-blog.html"
 tags: ["개츠비블로그"]
 featuredImage: "./cover.jpg"
 excerpt: 개츠비 스타터 블로그 생성기
@@ -106,3 +106,8 @@ gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/g
 - gatsby-config.js 파일 내에 제목 및 URL 등 정보를 수정해준다.
 - content/posts/ 경로에 있는 예시 포스트 폴더 하나를 복붙하여 제목 및 내용을 수정해준다.
 - 마기막으로 git commit 및 git push 를 수행한다.
+
+## 그 뒤에 한 일
+- google analytics 등록
+- google search console 등록
+  - 인증용 html 파일을 public 폴더로 강제로 복붙하도록 npm scripts를 수정하여 인증 성공
