@@ -15,14 +15,14 @@
   icon: ./assets/images/logo.png
   featured: true
 - name: 프론트엔드
-color: "#c99000"
-icon: ./assets/images/logo.png
-featured: true
+  color: "#c99000"
+  icon: ./assets/images/logo.png
+  featured: true
 - name: 웹크롤링
-color: "#c21d00"
-icon: ./assets/images/logo.png
-featured: true
+  color: "#c21d00"
+  icon: ./assets/images/logo.png
+  featured: true
 - name: 음악
-color: "#2bba00"
-icon: ./assets/images/logo.png
-featured: true
+  color: "#2bba00"
+  icon: ./assets/images/logo.png
+  featured: true
