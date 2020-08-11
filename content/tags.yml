@@ -5,11 +5,11 @@
 - name: frontend
   color: "#c99000"
   icon: ./assets/images/tag_2.jpg
-  featured: true
+  featured: false
 - name: crawler
   color: "#c21d00"
   icon: ./assets/images/tag_3.jpg
-  featured: true
+  featured: false
 - name: music
   color: "#2bba00"
   icon: ./assets/images/tag_4.jpg
