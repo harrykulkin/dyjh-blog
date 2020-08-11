@@ -14,3 +14,11 @@
   color: "#a3c702"
   icon: ./assets/images/logo.png
   featured: true
+- name: 프론트엔드
+color: "#a3c790"
+icon: ./assets/images/logo.png
+featured: true
+- name: 웹크롤링
+color: "#a4a100"
+icon: ./assets/images/logo.png
+featured: true
