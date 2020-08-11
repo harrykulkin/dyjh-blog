@@ -7,15 +7,15 @@ import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
  */
 // @ts-ignore
 const Comments: FunctionComponent<{ id: string }> = ({id}) => {
-    let disqusConfig = {
-        identifier: id,
-      }
-      return (
-        <>
-          <CommentCount config={disqusConfig} placeholder={'...'} />
-          /* Post Contents */
-          <Disqus config={disqusConfig} />
-        </>
-      )};
+  let disqusConfig = {
+    identifier: id,
+  }
+  return (
+    <>
+      <CommentCount config={disqusConfig} placeholder={'...'} />
+      /* Post Contents */
+      <Disqus config={disqusConfig} />
+    </>
+)};
 
 export default Comments;
