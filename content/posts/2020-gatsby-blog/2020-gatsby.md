@@ -1,6 +1,6 @@
 ---
 title: "개츠비 스타터 블로그 생성기"
-path: "2020-gatsby-blog"
+path: "posts/2020-gatsby-blog"
 tags: ["개츠비블로그"]
 featuredImage: "./cover.jpg"
 excerpt: 개츠비 스타터 블로그 생성기
