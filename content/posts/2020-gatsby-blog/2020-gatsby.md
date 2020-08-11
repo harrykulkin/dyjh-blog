@@ -66,20 +66,15 @@ gatsby new {블로그명} https://www.gatsbyjs.org/starters/nehalist/gatsby-star
 cd {블로그명}
 ```
 
-- packge.json 내에 **dependencies** 부분 삭제하고 의존성을 정리해준다
-- 정리를 위해 **package-lock.json과 yarn.lock을 삭제**하고 .gitignore 에 package-lock.json 을 추가해준다
+- 정리를 위해 **package-lock.json을 삭제**하고 .gitignore 에 package-lock.json 을 추가해준다
   - yarn.lock은 추가하지 않는다.
-
 
 ```
 rm package-lock.json
-rm yarn.lock
 
 npm i yarn
+yarn
 
-yarn add @nehalist/gatsby-theme-nehalem
-yarn add gatsby-cli
-yarn add react-dom
 gatsby develop
 ```
   - yarn과 gatsby-cli 를 로컬에 설치 안 해주면 netlify 오류가 남
