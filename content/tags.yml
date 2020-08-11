@@ -22,3 +22,7 @@ featured: true
 color: "#a4a100"
 icon: ./assets/images/logo.png
 featured: true
+- name: 음악
+color: "#a4c100"
+icon: ./assets/images/logo.png
+featured: true
