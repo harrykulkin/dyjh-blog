@@ -58,6 +58,12 @@ module.exports = {
       options: {
         shortname: `dyjh-blog`
       }
-    } // make sure to keep it last in the array
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-175065337-1",
+      }
+    }
   ]
 };
