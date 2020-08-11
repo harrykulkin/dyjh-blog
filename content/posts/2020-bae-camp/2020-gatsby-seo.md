@@ -2,7 +2,7 @@
 title: "배철수의 음악캠프 30주년 TOP100 재생목록 모음"
 path: "posts/2020-bae-camp"
 tags: ["음악"]
-featuredImage: "./cover.jpg"
+featuredImage: "https://upload.wikimedia.org/wikipedia/commons/7/71/%EB%B0%B0%EC%B2%A0%EC%88%98.jpg"
 excerpt: 배철수의 음악캠프 30주년 TOP100 스포티파이, 유튜브뮤직, 멜론, 지니, 애플뮤직 링크 모음
 created: 2020-08-12
 updated: 2020-08-12
