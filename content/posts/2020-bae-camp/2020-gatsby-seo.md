@@ -2,13 +2,11 @@
 title: "배철수의 음악캠프 30주년 TOP100 재생목록 모음"
 path: "posts/2020-bae-camp"
 tags: ["음악"]
-featuredImage: "https://upload.wikimedia.org/wikipedia/commons/7/71/%EB%B0%B0%EC%B2%A0%EC%88%98.jpg"
+featuredImage: "./cover.jpg"
 excerpt: 배철수의 음악캠프 30주년 TOP100 스포티파이, 유튜브뮤직, 멜론, 지니, 애플뮤직 링크 모음
 created: 2020-08-12
 updated: 2020-08-12
 ---
-
-# 배철수의 음악캠프 30주년 TOP100 재생목록 모음
 
 ## 배캠 30주년
 - 수년 전에 즐겨 듣던 배철수의 음악캠프가 30주년을 맞이하여 TOP100을 공개했다고 한다. 기념 음반 등 상품도 판매를 하였고, BBC를 통한 영국 생방송도 진행하였다고 한다. 우리나라 팝팬들이 선호하는 프로그램이기에 TOP100 리스트 또한 큰 의미가 있다고 본다. 재생목록을 직접 작업하진 않았으나, 수요가 있을 것 같아서 내가 찾은 재생목록 링크들을 공유한다.
