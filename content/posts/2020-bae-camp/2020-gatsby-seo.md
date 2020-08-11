@@ -127,6 +127,7 @@ updated: 2020-08-12
 ```
 
 ## 재생목록
+- 음원 사이트에 누락된 음원이 존재한다.
 - 스포티파이 : <https://open.spotify.com/playlist/1Iv2v3pYqKiYebVinWlq68?si=Ulz42pbFR9a6O0kmINZuMA>
 - 유튜브뮤직 : <https://music.youtube.com/playlist?list=PLcIsRWLK2vg4I7uJO2AS9mtFy9hsdgcOx>
 - 멜론 : <https://www.melon.com/mymusic/playlist/mymusicplaylistview_inform.htm?plylstSeq=480797574>
