@@ -11,13 +11,13 @@ module.exports = {
       },
       {
         name: 'Posts',
-        path: '/page'
+        path: '/archive'
       },
     ],
     footerMenu: [
       {
         name: 'Posts',
-        path: '/page'
+        path: '/archive'
       },
     ],
     search: true,
