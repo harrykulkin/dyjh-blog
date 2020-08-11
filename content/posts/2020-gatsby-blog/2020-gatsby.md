@@ -1,7 +1,7 @@
 ---
 title: "개츠비 스타터 블로그 생성기"
 path: "posts/2020-gatsby-blog"
-tags: ["개츠비블로그","프론트엔드"]
+tags: ["gatsby","frontend"]
 featuredImage: "./cover.jpg"
 excerpt: gatsby starter 라이브러리를 활용한 마크다운(markdown) 블로그 생성
 created: 2020-08-10

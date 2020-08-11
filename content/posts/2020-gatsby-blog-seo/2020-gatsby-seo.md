@@ -1,7 +1,7 @@
 ---
 title: "개츠비 블로그 구글 검색 되도록 하기"
 path: "posts/2020-gatsby-blog-seo"
-tags: ["개츠비블로그","웹크롤링"]
+tags: ["gatsby","crawler"]
 featuredImage: "./cover.jpg"
 excerpt: 개츠비 블로그에 SEO(Search Engine Optimization) 적용. GSC (Google Search Console) 인증 및 sitemap.xml 등록.
 created: 2020-08-11

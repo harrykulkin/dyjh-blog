@@ -1,16 +1,16 @@
-- name: 개츠비블로그
+- name: gatsby
   color: "#a3c702"
-  icon: ./assets/images/logo.png
+  icon: ./assets/images/tag_1.jpg
   featured: true
-- name: 프론트엔드
+- name: frontend
   color: "#c99000"
-  icon: ./assets/images/logo.png
+  icon: ./assets/images/tag_2.jpg
   featured: true
-- name: 웹크롤링
+- name: crawler
   color: "#c21d00"
-  icon: ./assets/images/logo.png
+  icon: ./assets/images/tag_3.jpg
   featured: true
-- name: 음악
+- name: music
   color: "#2bba00"
-  icon: ./assets/images/logo.png
+  icon: ./assets/images/tag_4.jpg
   featured: true
