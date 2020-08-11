@@ -3,6 +3,7 @@ module.exports = {
     title: `... 그러한 연 然 ...`,
     siteUrl: `https://dyjh-blog.netlify.app/`,
     description: `세상에 남길 무언가`,
+    disqusShortname: 'dyjh-blog',
     topics: [],
     menu: [
       {
@@ -51,6 +52,12 @@ module.exports = {
       }
     },
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    'gatsby-plugin-netlify',
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `dyjh-blog`
+      }
+    } // make sure to keep it last in the array
   ]
 };
