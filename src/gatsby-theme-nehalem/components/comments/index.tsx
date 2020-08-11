@@ -13,7 +13,6 @@ const Comments: FunctionComponent<{ id: string }> = ({id}) => {
   return (
     <>
       <CommentCount config={disqusConfig} placeholder={'...'} />
-      /* Post Contents */
       <Disqus config={disqusConfig} />
     </>
 )};
