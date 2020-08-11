@@ -3,9 +3,9 @@ title: "개츠비 스타터 블로그 생성기"
 path: "posts/2020-gatsby-blog"
 tags: ["개츠비블로그","프론트엔드"]
 featuredImage: "./cover.jpg"
-excerpt: 개츠비 스타터 블로그 생성기
+excerpt: gatsby starter 라이브러리를 활용한 마크다운(markdown) 블로그 생성
 created: 2020-08-10
-updated: 2020-08-10
+updated: 2020-08-12
 ---
 
 # 개츠비 블로그 생성기
@@ -102,7 +102,5 @@ gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/g
 - content/posts/ 경로에 있는 예시 포스트 폴더 하나를 복붙하여 제목 및 내용을 수정해준다.
 - 마기막으로 git commit 및 git push 를 수행한다.
 
-## 다음에 소개할 것
-- google analytics 등록
-- google search console 등록
-  - 인증용 html 파일을 public 폴더로 강제로 복붙하도록 npm scripts를 수정하여 인증 성공
+## 다음 글
+- 개츠비 블로그 구글 검색 되도록 하기 : <https://dyjh-blog.netlify.app/posts/2020-gatsby-seo>
