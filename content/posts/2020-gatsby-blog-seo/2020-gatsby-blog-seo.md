@@ -118,4 +118,3 @@ gatsby serve
 
 ## 다음 글
 - 개츠비 블로그 댓글 기능 넣기 : <https://dyjh-blog.netlify.app/posts/2020-gatsby-blog-disqus>
-- 카카오 og(open graph) 태그 캐시 초기화 하기

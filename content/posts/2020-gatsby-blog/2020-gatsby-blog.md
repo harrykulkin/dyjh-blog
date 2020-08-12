@@ -101,4 +101,4 @@ gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/g
 - 마기막으로 git commit 및 git push 를 수행한다.
 
 ## 다음 글
-- 개츠비 블로그 구글 검색 되도록 하기 : <https://dyjh-blog.netlify.app/posts/2020-gatsby-blog-seo>
+- 개츠비 블로그 구글 검색 노출시키기 : <https://dyjh-blog.netlify.app/posts/2020-gatsby-blog-seo>
