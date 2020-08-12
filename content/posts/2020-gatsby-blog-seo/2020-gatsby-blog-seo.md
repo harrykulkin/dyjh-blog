@@ -1,5 +1,5 @@
 ---
-title: "개츠비 블로그 구글 검색 되도록 하기"
+title: "개츠비 블로그 구글 검색 노출시키기"
 path: "posts/2020-gatsby-blog-seo"
 tags: ["gatsby","crawler"]
 featuredImage: "./cover.jpg"

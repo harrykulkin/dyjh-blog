@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `... 그러한 연 然 ...`,
     siteUrl: `https://dyjh-blog.netlify.app/`,
-    description: `세상에 남길 무언가`,
+    description: `__국민총삽질__ 줄이기 프로젝트`,
     disqusShortname: 'dyjh-blog',
     topics: [],
     menu: [
@@ -86,6 +86,18 @@ module.exports = {
         // siteSpeedSampleRate: 10,
         // cookieDomain: "example.com",
       }
-    }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://dyjh-blog.netlify.app',
+        sitemap: 'https://dyjh-blog.netlify.app/sitemap.xml',
+        policy: [{
+          userAgent: '*',
+          allow: '/',
+          disallow: ["/tag/2019-","/tag/2018","/tag/2015","/2019-singapore-universial","/2018-ruiruna","/2020-gatsby-blog"],
+        }]
+      }
+    },
   ]
 };
