@@ -14,5 +14,5 @@ VS Code는 Git에 의존성이 있는 것으로 보인다. VS Code를 설치하�
 ## 저장소보다 이전 커밋으로 되돌리기
 잘 못된 코드를 반영하여 이전 커밋으로 되돌리고 싶다면, 우상단 ... 클릭 후 **Undo Last Commit**을 실행한다. 바로 한 단계 이전의 상태로 변경된다. GUI라서 직관적이다. 같은 동작을 반복하여, 원하는 시점으로 되돌아갔다면, Terminal 창에서 ```git push -f origin master```로 강제 반영해준다. 일부 파일은 제외하고 싶다면 해당 파일 위에서 마우스 우측 버튼을 누르고 **Unstage Changes**를 선택하여 스테이징을 해제한다. 그리고 해당 파일명에[ 마우스를 올려놓고 반시계 방향 화살표의 Discard Changes 버튼을 눌러준다. 만약 Undo Last Commit로 3단계 전의 상태로 돌아간 상태였다면, 해당 파일만 2단계 전의 상태가 된 것이다. ```git push -f origin master``` 통해 저장소에도 반영한다.
 
-## 터미널에서 하려면?
-... 메뉴에서 **Show Git Output**을 클릭하고 하단 Output 창을 살펴보면, ```git reset --soft HEAD~``` 구문이 보인다. 터미널에서 실행하는 명령인 것이다.
+## 터미널 명령을 확인하려면
+... 메뉴에서 **Show Git Output**을 클릭하고 하단 Output 창을 살펴보면, ```git reset --soft HEAD~``` 구문이 보인다. 터미널에서 실행 시 명령이다. 터미널 명령 옵션을 통해 더욱 다양한 reset이 가능한데, 이를테면, ```git reset --hard HEAD~```는 되돌린 시점 이후의 기록들이 삭제된다. ```git reset HEAD~6```는 현재 시점에서 6개 이전 커밋으로 되돌릴 수 있다.
