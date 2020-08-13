@@ -1,6 +1,6 @@
 ---
 title: "개츠비 블로그 댓글 기능 넣기"
-path: "posts/2020-gatsby-blog-disqus"
+path: "/posts/2020-gatsby-blog-disqus"
 tags: ["gatsby"]
 featuredImage: "./cover.jpg"
 excerpt: 개츠비 블로그에 disqus를 활용한 댓글 기능 넣기

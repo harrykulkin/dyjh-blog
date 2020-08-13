@@ -1,6 +1,6 @@
 ---
 title: "개츠비 블로그 구글 네이버 다음 검색 노출시키기"
-path: "posts/2020-gatsby-blog-seo"
+path: "/posts/2020-gatsby-blog-seo"
 tags: ["gatsby","crawler"]
 featuredImage: "./cover.jpg"
 excerpt: 개츠비 블로그 SEO(Search Engine Optimization) 적용. 구글 서치 콘솔(GSC:Google Search Console) 및 네이버 웹마스터 도구 등록
