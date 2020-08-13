@@ -24,7 +24,7 @@ module.exports = {
     search: true,
     author: {
       name: `컬킨`,
-      description: `<strong>컬킨</strong>, 미디어 회사 근무, 얇고 넓은 풀스택 개발자 지향`,
+      description: `<strong>컬킨</strong>, 미디어 회사 근무, 얇고 넓은 풀스택 워너비`,
       social: {
         facebook: ``,
         twitter: ``,
