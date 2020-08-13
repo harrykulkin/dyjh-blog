@@ -10,14 +10,10 @@
   color: "#c21d00"
   icon: ./assets/images/tag_3.jpg
   featured: false
-- name: music
-  color: "#2bba00"
-  icon: ./assets/images/tag_5.jpg
-  featured: true
 - name: git
   color: "#00aeba"
   icon: ./assets/images/tag_4.jpg
-  featured: false
+  featured: true
 - name: docker
   color: "#1702b5"
   icon: ./assets/images/tag_1.jpg
@@ -28,5 +24,9 @@
   featured: false
 - name: game
   color: "#b8b804"
-  icon: ./assets/images/tag_7.jpg
+  icon: ./assets/images/tag_8.jpg
   featured: false
+- name: music
+  color: "#2bba00"
+  icon: ./assets/images/tag_5.jpg
+  featured: true
