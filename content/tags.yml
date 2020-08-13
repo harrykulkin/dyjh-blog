@@ -22,3 +22,7 @@
   color: "#1702b5"
   icon: ./assets/images/tag_1.jpg
   featured: false
+- name: vscode
+  color: "#b204b5"
+  icon: ./assets/images/tag_7.jpg
+  featured: false
