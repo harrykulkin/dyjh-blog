@@ -26,3 +26,7 @@
   color: "#b204b5"
   icon: ./assets/images/tag_7.jpg
   featured: false
+- name: game
+  color: "#b8b804"
+  icon: ./assets/images/tag_7.jpg
+  featured: false
