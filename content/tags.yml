@@ -1,6 +1,6 @@
 - name: gatsby
   color: "#a3c702"
-  icon: ./assets/images/tag_1.jpg
+  icon: ./assets/images/tag_6.jpg
   featured: true
 - name: frontend
   color: "#c99000"
@@ -12,7 +12,7 @@
   featured: false
 - name: music
   color: "#2bba00"
-  icon: ./assets/images/tag_4.jpg
+  icon: ./assets/images/tag_5.jpg
   featured: true
 - name: git
   color: "#00aeba"
@@ -20,5 +20,5 @@
   featured: false
 - name: docker
   color: "#1702b5"
-  icon: ./assets/images/tag_4.jpg
+  icon: ./assets/images/tag_1.jpg
   featured: false

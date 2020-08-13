@@ -11,7 +11,7 @@
   "main": "n/a",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/gatsby-theme-nehalem/logo.png && cp content/assets/images/icon-512x512.png node_modules/@nehalist/gatsby-theme-nehalem/assets/nehalist-gatsby.png && cp src/gatsby-theme-nehalem/components/comments/index.tsx node_modules/@nehalist/gatsby-theme-nehalem/src/components/comments/ && cp src/gatsby-theme-nehalem/styles/global-style.ts node_modules/@nehalist/gatsby-theme-nehalem/src/styles/ && gatsby build && cp content/pages/google621652c2e7dd0ddc.html public/ && cp content/pages/naverf342a698f22f410823b2840e54a7ef3f.html public/",
+    "build": "gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/gatsby-theme-nehalem/logo.png && cp content/assets/images/icon-512x512.png node_modules/@nehalist/gatsby-theme-nehalem/assets/nehalist-gatsby.png && cp src/gatsby-theme-nehalem/components/comments/index.tsx node_modules/@nehalist/gatsby-theme-nehalem/src/components/comments/ && cp src/gatsby-theme-nehalem/styles/global-style.ts node_modules/@nehalist/gatsby-theme-nehalem/src/styles/ && cp src/gatsby-theme-nehalem/gatsby-config.js node_modules/@nehalist/gatsby-theme-nehalem/ && gatsby build && cp content/pages/google621652c2e7dd0ddc.html public/ && cp content/pages/naverf342a698f22f410823b2840e54a7ef3f.html public/",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve"
@@ -25,6 +25,8 @@
     "gatsby-plugin-netlify": "^2.3.12",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sitemap": "^2.4.11",
+    "gatsby-remark-embedder": "^3.0.0",
+    "gatsby-transformer-remark": "^2.8.28",
     "react-dom": "^16.13.1",
     "yarn": "^1.22.4"
   }
