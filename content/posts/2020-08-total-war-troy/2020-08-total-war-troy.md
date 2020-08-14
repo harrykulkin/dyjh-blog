@@ -1,9 +1,9 @@
 ---
-title: "토탈워 트로이 에픽 무료 다운로드 및 플레이"
+title: "토탈워 트로이 에픽 무료 플레이 및 아마존 DLC 준비하기"
 path: "/posts/2020-08-total-war-troy"
 tags: ["game"]
 featuredImage: "./cover.jpg"
-excerpt: A Total War Saga TROY epic games store 무료 다운로드 및 플레이
+excerpt: A Total War Saga TROY epic games store 무료 플레이 및 AMAZON DLC 준비하기
 created: 2020-08-14
 updated: 2020-08-14
 ---
@@ -13,7 +13,7 @@ updated: 2020-08-14
 - **새소식**에 A Total War Saga TROY 24시간 동안 무료 다운로드 하단의 **지금 받기**를 클릭한다.
 - 라이브러리 추가 및 0원 구매를 진행하고 **라이브러리**에서 다운로드를 진행한다.
 
-## 아마존 DLC 무료 배포 대비하기 (9월 예정)
+## 아마존 DLC 준비하기 (9월 예정)
 - 토탈워 엑세스에 가입을 하고 로그인 한다. <https://access.totalwar.com/auth/main_login/>
 - 토탈워 엑세스 링크 페이지에 접속한다. <https://access.totalwar.com/auth/main_login/?source=troy&next=https%3A%2F%2Faccess.totalwar.com%2Fauth%2Fcontrol_panel%2F%3Fsource%3Dtroy&utm_source=twcom&utm_medium=faq&utm_campaign=account_linking>
 - **Linked Account** 탭에서 에픽 게임즈 계정 연동을 진행한다. **Account Connected** 문구가 나타나면 완료
