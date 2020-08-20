@@ -30,3 +30,7 @@
   color: "#2bba00"
   icon: ./assets/images/tag_5.jpg
   featured: true
+- name: appliance
+  color: "#b8b804"
+  icon: ./assets/images/tag_8.jpg
+  featured: false
