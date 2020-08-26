@@ -34,3 +34,7 @@
   color: "#b8b804"
   icon: ./assets/images/tag_8.jpg
   featured: false
+- name: av-device
+  color: "#b8b804"
+  icon: ./assets/images/tag_8.jpg
+  featured: false

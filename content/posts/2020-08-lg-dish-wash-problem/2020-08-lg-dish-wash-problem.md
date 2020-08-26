@@ -5,7 +5,7 @@ tags: ["appliance"]
 featuredImage: "./cover.jpg"
 excerpt: LG 디오스(DIOS) 12인용 식기세척기 설치기, 사전답사 기사가 배수관 길이가 짧아서 설치가 불가하다고 했을 때 해결 방법 등
 created: 2020-08-20
-updated: 2020-08-20
+updated: 2020-08-26
 ---
 
 ## 식기세척기 구매 !!!
