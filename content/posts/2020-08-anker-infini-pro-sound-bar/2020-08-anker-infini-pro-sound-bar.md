@@ -1,7 +1,7 @@
 ---
 title: "가성비 사운드바, 앤커 사운드코어 인피니 프로 사용 후기"
 path: "/posts/2020-08-anker-infini-pro-sound-bar"
-tags: ["appliance"]
+tags: ["av-device"]
 featuredImage: "./cover.jpg"
 excerpt: 가성비 돌비 애트모스(Dolby Atmos) 사운드바, Anker Soundcore Infini Pro 구매 및 설치 후기, 돌비 애트머스 테스트, TV 및 셋탑박스 연결 방법
 created: 2020-08-26
