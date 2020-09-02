@@ -3,7 +3,7 @@ title: "C타입 노이즈캔슬링(ANC) 이어폰, 앱코 CGR100ANC 사용 후�
 path: "/posts/2020-09-abko-anc-wired-earphone"
 tags: ["av-device"]
 featuredImage: "./cover.jpg"
-excerpt: 가성비 유선 USB-C타입 ANC(액티브 노이즈 캔슬링, Active Noise-Cancelling) 이어폰 사전 예약 구매 및 사용 후기
+excerpt: 가성비 유선 USB-C타입 ANC(액티브 노이즈 캔슬링, Active Noise-Cancelling) 게이밍 이어폰 사전 예약 구매 및 사용 후기 / 고속 무선충전 실험 / 노트북 연결 후기
 created: 2020-09-01
 updated: 2020-09-02
 ---
@@ -25,17 +25,23 @@ updated: 2020-09-02
 
 ## 언박싱 !!
 ### 여분의 폼팁과 매뉴얼, USB-A 변환 커넥터로 구성되어 있다.
-![anker](https://i.ibb.co/1rcr6h0/Kakao-Talk-20200902-001617598-05.jpg")
-![anker](https://i.ibb.co/FYLhf5h/Kakao-Talk-20200902-001617598-04.jpg")
+![abko]](https://i.ibb.co/1rcr6h0/Kakao-Talk-20200902-001617598-05.jpg")
+![abko](https://i.ibb.co/FYLhf5h/Kakao-Talk-20200902-001617598-04.jpg")
 
 ### ANC 스위치
-![anker](https://i.ibb.co/SfkVk4f/Kakao-Talk-20200902-001617598-03.jpg")
+![abko](https://i.ibb.co/SfkVk4f/Kakao-Talk-20200902-001617598-03.jpg")
 
-### USB-A 커넥터를 이용해 노트북에 연결한 모습
-![anker](https://i.ibb.co/DYd9DVD/Kakao-Talk-20200902-001617598.jpg")
+### USB-A 커넥터를 이용해 노트북에 연결했는데 잘 된다.
+![abko](https://i.ibb.co/DYd9DVD/Kakao-Talk-20200902-001617598.jpg")
+
+### 2017년식 HP 프로북인데, 자체 C타입 포트에 다이렉트 인식은 안 된다
+![abko](https://i.ibb.co/XYN1xDR/Kakao-Talk-20200902-001617598-02.jpg")
 
 ## 총평
 ### 장점
   이정도 가격에 노캔 성능도 준수하고 음질도 나쁘지 않았다. 개인적으로 삼성 AKG 번들 이어폰보다 비슷하거나 살짝 떨어지는 음질을 보여준다. AKG 보다 저음이 굉장히 강해서 호불호가 갈릴 수가 있다. 삼성 갤럭시S10 5G 사용 중인데, 음질 최적화를 끄는 것이 더 좋았다.
 ### 지하철에서 노캔 성능의 아쉬움
   사무실이나 길거리에서는 준수한 노캔 성능을 보여줬으나, 지하철을 타고 노캔을 켜고 넷플릭스를 볼 때, 원래 음성이 작게 들려서 소리를 거의 최대치까지 키워서 들었다. 기존에 사용했던 소니 Wi-1000X 와 비교했을 때 아쉬운 부분이었다.
+
+### 고속 무선 충전 + 노캔 동시 작동하면?
+  고속 무선충전기에 올려놓고 노캔 활성화 시 남은 %에 변화가 없이 그대로 지속됐다. 여러가지 이유가 있겠지만, 배터리 사용량이 적진 않은 것 같다.
