@@ -25,17 +25,20 @@ updated: 2020-09-02
 
 ## 언박싱 !!
 ### 여분의 폼팁과 매뉴얼, USB-A 변환 커넥터로 구성되어 있다.
-![abko]](https://i.ibb.co/1rcr6h0/Kakao-Talk-20200902-001617598-05.jpg")
-![abko](https://i.ibb.co/FYLhf5h/Kakao-Talk-20200902-001617598-04.jpg")
+![abko](https://i.ibb.co/1rcr6h0/Kakao-Talk-20200902-001617598-05.jpg)
+![abko](https://i.ibb.co/FYLhf5h/Kakao-Talk-20200902-001617598-04.jpg)
 
 ### ANC 스위치
-![abko](https://i.ibb.co/SfkVk4f/Kakao-Talk-20200902-001617598-03.jpg")
+![abko](https://i.ibb.co/SfkVk4f/Kakao-Talk-20200902-001617598-03.jpg)
 
 ### USB-A 커넥터를 이용해 노트북에 연결했는데 잘 된다.
-![abko](https://i.ibb.co/DYd9DVD/Kakao-Talk-20200902-001617598.jpg")
+![abko](https://i.ibb.co/DYd9DVD/Kakao-Talk-20200902-001617598.jpg)
 
-### 2017년식 HP 프로북인데, 자체 C타입 포트에 다이렉트 인식은 안 된다
-![abko](https://i.ibb.co/XYN1xDR/Kakao-Talk-20200902-001617598-02.jpg")
+### 2017년식 HP 프로북인데, 자체 C타입 포트에 다이렉트 인식은 안 된다.
+![abko](https://i.ibb.co/XYN1xDR/Kakao-Talk-20200902-001617598-02.jpg)
+
+### 닌텐도 스위치에도 연결이 잘 된다.
+![abko](https://i.ibb.co/Bnys9Jq/Kakao-Talk-20200904-101153350.jpg)
 
 ## 총평
 ### 장점
@@ -47,4 +50,4 @@ updated: 2020-09-02
   고속 무선충전기에 올려놓고 노캔 활성화 시 남은 %에 변화가 없이 그대로 지속됐다. 여러가지 이유가 있겠지만, 배터리 사용량이 적진 않은 것 같다.
 
 ### 마이크 통화
-  QCY-T5 랑 비교했을 때 마이크 성능은 상당히 좋은 편이다. 하지만 WI-1000X와 같이 귀에 꼽는 쪽에 마이크가 달려 있어서 한쪽을 뽑아서 입 근처에 갖다대야 정상적으로 대화가 된다.
+  QCY-T5 랑 비교했을 때 마이크 성능은 좋은 편이다. 하지만 WI-1000X와 같이 귀에 꼽는 쪽에 마이크가 달려 있어서 한쪽을 뽑아서 입 근처에 갖다대야 정상적으로 대화가 된다.
