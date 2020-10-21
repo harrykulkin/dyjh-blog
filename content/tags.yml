@@ -38,3 +38,7 @@
   color: "#b8b804"
   icon: ./assets/images/tag_8.jpg
   featured: false
+  - name: wiki
+  color: "#00aeba"
+  icon: ./assets/images/tag_4.jpg
+  featured: false
