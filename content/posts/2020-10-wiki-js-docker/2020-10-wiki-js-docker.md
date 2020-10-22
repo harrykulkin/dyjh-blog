@@ -31,6 +31,7 @@ wiki.js 이미지 단독으로 80(http) 포트와 3000 포트 접속은 기본�
 
 1. docker 및 docker-compose 설치
 2. docker-compose.yml 작성
+
 ```yml
 version: "3"
 services:
