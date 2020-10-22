@@ -65,6 +65,7 @@ services:
 volumes:
   db-data:
 ```
+
 3. ```sudo docker-compose up -d``` 실행
 
 이제 웹 브라우저에서 해당 서버로 다이렉트로 접속하여, 기본 설정이 가능하다. 프록시 서버 설정이 필요하면 별도로 해줘야 한다.
@@ -75,6 +76,7 @@ wiki 서버와 nginx 서버가 하나의 동일한 서버라면 아래와 같이
 1. docker 및 docker-compose 설치
 2. SSL 인증서 발급
 3. docker-compose.yml 작성
+
 ```
 version: "3"
 services:
@@ -123,6 +125,7 @@ volumes:
 ```
 4. ```/path/to/conf/dhparams.pem``` 파일 생성 : ```openssl dhparam -out dhparams.pem 4096```
 5. ```/path/to/conf/nginx.conf``` 파일 작성
+
 ```
 user  nginx;
 worker_processes  1;
@@ -189,6 +192,7 @@ http {
     include /etc/nginx/conf.d/*.conf;
 }
 ```
+
 6. ```sudo docker-compose up -d``` 실행
 
 이제 해당 웹사이트로 접속하면 SSL(443) 포트로 자동 리다이렉션 되면서, 암호화 통신이 가능하다.
