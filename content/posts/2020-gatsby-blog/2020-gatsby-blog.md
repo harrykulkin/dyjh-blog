@@ -42,7 +42,7 @@ updated: 2020-08-12
 - WSL2 환경에서 gatsby 개발환경을 구성하는 방법은 yarn을 이용하는 방법과 npm을 이용하는 방법으로 나뉜다. 필자는 yarn을 이용하는 방법으로 설명을 하겠다.
 - yarn을 이용하더라도 npm은 필수적으로 설치해야 한다.
 - yarn 을 통해 gatsby cli 를 전역(global) 로 설치하면 끝.
-```
+```sh
 sudo apt-get install nodejs
 sudo npm i -g yarn
 sudo yarn global add gatsby-cli
@@ -50,7 +50,7 @@ gatsby -v
 ```
 
 - 아래와 비슷한 결과가 나오면 성공이다
-```
+```sh
 Gatsby CLI version: 2.12.76
 ```
 
@@ -59,7 +59,7 @@ Gatsby CLI version: 2.12.76
 - gatsby 공식 라이브로리 페이지에 검색하여 맘에드는 테마를 고른다 <https://www.gatsbyjs.org/starters/?c=Blog&v=2>
 - 필자가 고민 끝에 선택한 테마 <https://www.gatsbyjs.org/starters/nehalist/gatsby-starter-nehalem/>
 - 테마를 선택했다면 gatsby new 를 사용하여 로컬에 해당 테마를 다운로드 한다.
-```
+```sh
 gatsby new {블로그명} https://www.gatsbyjs.org/starters/nehalist/gatsby-starter-nehalem
 cd {블로그명}
 ```
@@ -67,7 +67,7 @@ cd {블로그명}
 - 정리를 위해 **package-lock.json을 삭제**하고 .gitignore 에 package-lock.json 을 추가해준다
   - yarn.lock은 추가하지 않는다.
 
-```
+```sh
 rm package-lock.json
 
 npm i yarn
@@ -83,13 +83,13 @@ gatsby develop
 - netlify 배포하기 위하여 **package.json** 내에 **build** 스크립트를 아래와 같이 설정한다
 
 
-```
+```sh
 gatsby clean && gatsby build
 ```
   - 기타 필요한 스크립트가 있다면 추가해줘도 좋다. (아래 예시 참조)
 
 
-```
+```sh
 gatsby clean && cp content/assets/images/icon-96x96.png node_modules/@nehalist/gatsby-theme-nehalem/logo.png && cp content/assets/images/icon-512x512.png node_modules/@nehalist/gatsby-theme-nehalem/assets/nehalist-gatsby.png && gatsby build
 ```
 

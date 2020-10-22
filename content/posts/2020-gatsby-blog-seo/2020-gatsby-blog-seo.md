@@ -17,7 +17,7 @@ updated: 2020-08-12
 - 개츠비 블로그는 사이트맵을 자동 생성해주는 플러그인을 제공하고 있어서 간단하게 이정표를 세울 수 있다.
 - 우선, **gatsby-config.js** 내 플러그인을 추가한다.
 
-```
+```js
   plugins: [
      ...
     'gatsby-plugin-sitemap',
@@ -28,14 +28,14 @@ updated: 2020-08-12
 
 - 개츠비 사이트맵 플러그인을 설치하고 사이트맵을 자동생성 해준다.
 
-```
+```sh
 yarn add gatsby-plugin-sitemap
 gatsby develop
 ```
 
 - <http://localhost:8000/sitemap.xml> 접속하여 자동생성된 내용을 확인한다. 다음과 같은 형식의 문서가 나타난다면 성공
-  
-```
+
+```xml
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 <loc>https://dyjh-blog.netlify.app/posts/2020-gatsby-blog-seo</loc>
@@ -51,7 +51,7 @@ gatsby develop
 - 우측에 **URL 접두어**를 선택하고 인증용 html 파일을 다운로드 한다.
 - 해당 html을 프로젝트 폴더 내에 복사하고 **package.json build 스크립트를 수정**하여 빌드 완료 후 public/ 폴더로 복사하게 한다
 
-```
+```json
 "scripts": {
     "build": "... && gatsby build && cp content/pages/google....html public/",
     ...
@@ -60,7 +60,7 @@ gatsby develop
 
 - 다음 빌드 시 http://localhost:9000/....html 접속하여 인증용 html 내용이 잘 뜨는지 확인한다.
 
-```
+```sh
 yarn build
 gatsby serve
 ```
@@ -79,7 +79,7 @@ gatsby serve
 - 개츠비 robots.txt 작성 플러그인을 설치한다. ```yarn add gatsby-plugin-robots-txt```
 - **gatsby-config.js**에 플러그인을 등록하고 모든 크롤러에 대해 모든 URL을 오픈하도록 robots.txt 설정해준다. 제외하고 싶은 URL이 있다면 disallow 속성을 추가한다.
 
-```
+```js
   plugins: [
 ...
     {

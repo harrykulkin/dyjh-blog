@@ -31,10 +31,9 @@ wiki.js 이미지 단독으로 80(http) 포트와 3000 포트 접속은 기본�
 
 1. docker 및 docker-compose 설치
 2. docker-compose.yml 작성
-```
+```yml
 version: "3"
 services:
-
   db:
     image: postgres:11-alpine
     environment:
@@ -46,7 +45,6 @@ services:
     restart: unless-stopped
     volumes:
       - db-data:/var/lib/postgresql/data
-
   wiki:
     image: requarks/wiki:2
     depends_on:
@@ -61,7 +59,6 @@ services:
     restart: unless-stopped
     ports:
       - "80:3000"
-
 volumes:
   db-data:
 ```
@@ -77,10 +74,9 @@ wiki 서버와 nginx 서버가 하나의 동일한 서버라면 아래와 같이
 2. SSL 인증서 발급
 3. docker-compose.yml 작성
 
-```
+```yml
 version: "3"
 services:
-
   db:
     image: postgres:11-alpine
     environment:
@@ -92,7 +88,6 @@ services:
     restart: unless-stopped
     volumes:
       - db-data:/var/lib/postgresql/data
-
   wiki:
     image: requarks/wiki:2
     depends_on:
@@ -107,7 +102,6 @@ services:
     restart: unless-stopped
     ports:
       - "3000:3000"
-
   reverse:
     container_name: reverse
     hostname: reverse
@@ -126,7 +120,7 @@ volumes:
 4. ```/path/to/conf/dhparams.pem``` 파일 생성 : ```openssl dhparam -out dhparams.pem 4096```
 5. ```/path/to/conf/nginx.conf``` 파일 작성
 
-```
+```conf
 user  nginx;
 worker_processes  1;
 error_log  /var/log/nginx/error.log warn;
@@ -215,7 +209,7 @@ markdown 작성 시에는 샾(#)을 이용해 제목을 지정해주면 된다.
 wiki.js는 텍스트를 빠르게 올려서 공유하기에 최적화된 솔루션이다. 기타 위키 기능들은 아직 테스트가 더 필요하다. 아쉬운 점이 있다면, 한글 검색 시 단어가 아닌 어절 단위로 검색된다. 예를 들어, **가족**을 검색하면 **가족이**, **가족에게** 등은 검색이 되지 않는 식이다. 다행히 비슷한 어절을 추천 검색어로 제공하고 있어, 조금 불편하더라도 이용은 가능하다. 추후에 엘라스틱 서치(elastic search)에 형태소 분석기를 올려서 검색 엔진으로 설정하면 좋을 것 같다.
 
 또한 IE11 에서 정상 작동이 안 된다. 소스를 내려받아서 package.json의 browserlist 설정값을 보면 그 이유를 알 수 있다. 그런데 이미 소스내에 babel 등 polyfill이 포함되어 있고, vue는 공식적으로 babel로 IE에 호환시킬 수 있는데도, IE를 배제시킨 것은 아쉽다. IE에서 기본적인 문서열람이라도 가능하게 하려면, **관리 → 메뉴**에서 **맞춤 탐색**을 선택하고 각 페이지의 링크를 직접 등록하면 된다.
-```
+```json
   "browserslist": [
     "> 1%",
     "last 2 major versions",

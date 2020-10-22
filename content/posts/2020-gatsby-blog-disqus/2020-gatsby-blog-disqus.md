@@ -21,7 +21,7 @@ updated: 2020-08-12
 - 개츠비 블로그에 플러그인을 설치한다. ``` yarn add gatsby-plugin-disqus ```
 -  **gatsby-config.js**에 플러그인을 추가하고 disqus에 등록한 shortname 을 입력해준다.
 
-```
+```js
   plugins: [
 ...
     {
@@ -36,7 +36,7 @@ updated: 2020-08-12
 
 - 포스트 템플릿에 적용해준다. 아래는 src/gatsby-theme-nehalem/components/comments/**index.tsx**
 
-```
+```js
 import React, {FunctionComponent} from "react";
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
@@ -61,7 +61,7 @@ export default Comments;
 
 - 내가 사용하는 nehalem 테마는 안타깝게도 셰도잉(shadowing) 기능이 올바르게 적용되지 않아서 **packge.json**을 수정하여 빌드 전에 소스를 바꿔치기 하는 방식을 선택했다. 테마를 바꿀까 진지하게 고민 중이다.
 
-```
+```json
   "scripts": {
     "build": "... && cp src/gatsby-theme-nehalem/components/comments/index.tsx node_modules/@nehalist/gatsby-theme-nehalem/src/components/comments/ && ... && gatsby build && ...",
 ...
