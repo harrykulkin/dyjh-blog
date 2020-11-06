@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `... 그러한 연 然 ...`,
+    title: `국민총삽질을 줄이자`,
     siteUrl: `https://dyjh-blog.netlify.app/`,
-    description: `세상에 남길 무언가`,
+    description: ``,
     disqusShortname: 'dyjh-blog',
     topics: [],
     menu: [
